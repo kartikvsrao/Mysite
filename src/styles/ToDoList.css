@@ -1,0 +1,147 @@
+.todo-list-container {
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.new-task-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.new-task-form input {
+  flex-grow: 1;
+}
+
+.new-task-form select,
+.new-task-form button {
+  padding: 5px 10px;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.todo-item {
+  margin-bottom: 10px;
+}
+
+.todo-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task {
+  flex-grow: 1;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.priority {
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+.priority-low {
+  background-color: #b2fab4;
+}
+
+.priority-medium {
+  background-color: #ffe17d;
+}
+
+.priority-high {
+  background-color: #ff8787;
+}
+
+.subtask-input {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.sublist {
+  margin-top: 10px;
+}
+
+
+/* General styling for ToDoList */
+.todo-list-container {
+  padding: 20px;
+}
+
+.new-task-form {
+  margin-bottom: 20px;
+}
+
+.subtask-input {
+  margin-top: 10px;
+}
+
+.task {
+  font-weight: bold;
+}
+
+.task.completed {
+  text-decoration: line-through;
+}
+
+.priority {
+  margin-left: 10px;
+}
+
+.priority-low {
+  color: green;
+}
+
+.priority-medium {
+  color: orange;
+}
+
+.priority-high {
+  color: red;
+}
+
+/* Category Labels */
+.category-label {
+  margin-left: 10px;
+  padding: 2px 6px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.category-label.work {
+  background-color: #FF5733;
+}
+
+.category-label.personal {
+  background-color: #33FF57;
+}
+
+.category-label.urgent {
+  background-color: #FF3333;
+}
+
+.category-label.hobby {
+  background-color: #3375FF;
+}
+
+.category-label.miscellaneous {
+  background-color: #FFC300;
+}
+
+/* Category Management */
+.category-management {
+  margin-top: 20px;
+}
+
+.filter-category {
+  margin-top: 20px;
+}
